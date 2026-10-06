@@ -1,0 +1,20 @@
+# Python
+.venv/
+venv/
+env/
+.env/
+__pycache__/
+*.pyc
+
+# Model weights (용량 문제로 제외)
+*.pt
+*.pth
+
+# Datasets / GT 평가 이미지
+data/
+datasets/
+tests/gt_test_seperate/
+
+# Logs / temp
+*.log
+.lgd-nfy0
